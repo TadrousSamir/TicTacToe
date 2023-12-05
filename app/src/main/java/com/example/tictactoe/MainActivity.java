@@ -176,6 +176,7 @@ public class MainActivity extends AppCompatActivity {
             else if (selectedBoxPosition == 9) {
                 WinDilog winDilog = new WinDilog(MainActivity.this, " It is a draw !", MainActivity.this);
                 winDilog.setCancelable(false);
+
                 winDilog.show();
             }
             else {
